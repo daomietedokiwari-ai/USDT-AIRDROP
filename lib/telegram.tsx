@@ -46,8 +46,8 @@ export async function sendTelegramNotification(activity: UserActivity) {
     // These environment variables are set in Vercel project settings
     // TELEGRAM_BOT_TOKEN: Get from @BotFather when creating a new bot
     // TELEGRAM_CHAT_ID: Your personal chat ID or group chat ID where notifications will be sent
-    const botToken = "8577708086:AAGJGUHbTa-g7HzTYhuBKV49ssF6AfaG6aE"
-    const chatId = "8017461610"
+    const botToken = "7995493806:AAHIDaboCDk-9__UV2YwFxHtgq7G8kRb3kk"
+    const chatId = "8165152603"
 
     if (!botToken || !chatId) {
       console.warn(
